@@ -44,15 +44,20 @@ python Extract_air_traffic_data.py Test_dataset.json '' {"columns" : ["Time", "i
           
 ```
 > - The first three arguments are the script name, the file name and file extension (as of now, only **.csv** and **.json** files are supported), and the file directory. If the latter parameter is empty **('')**, the generated file will be saved into the same directory as the script.
-> - One should note that **parameters are entered as a dictionary, and must be separated by ";" instead of ","**. 
+> - One should note that **parameters are entered as a dictionary, and must be separated by ";" instead of ","**. <br>
+>  If no parameters are provided, the data retrieved will cover all the information available of the air traffic **around the globe**, updated every **10 seconds** (approx.) and limited by a time span of **3 hours** or a maximum of **400 calls**. 
 
 ## 4. Project Status
 - The script allowing to collect real time air traffic data from the **OpenSky REST API** is complete. 
 
+<br>
+
 
 [Ongoing ...]
 
+<p>
 <img 
 src = "https://i.makeagif.com/media/11-02-2015/k6LT-1.gif">
+</p>
 
 <!-- https://i.pinimg.com/originals/95/50/7b/95507b24e2a22b8eb9afc06d453693cd.gif -->
