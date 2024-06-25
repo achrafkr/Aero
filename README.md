@@ -22,7 +22,7 @@ In this repository we gather various projects focusing on aviation and aeronauti
 
 Each project is distinguised by its own directory and comprises a series of annotated notebooks detailing the objectives and explanations for each step of the workflow. Notebooks may be supplemented by Python scripts for instances where code automation is necessary.
 
-Since data is collected from a variety of sources, a specific folder for the data shall be created for every project. In recognition of the work done by the community, and to facilitate access to the data for future efforts, all sources will be acknowledged and source links will be provided when possible. Note, however, that some datasets are processed using multiple data sources. In such cases, the sources shall be disclosed, with varying degrees of detail. Additionally, we reserve the right to disclose the processing code when relevant to the project. It will also be clarified if the used data was artificially produced.
+Since the data is collected from a variety of sources, a specific folder for the data shall be created for every project. In recognition of the work done by the community, and to facilitate access to the data for future efforts, all sources will be acknowledged and source links will be provided when possible. Note, however, that some datasets are processed using multiple data sources. In such cases, the sources shall be disclosed, with varying degrees of detail. Additionally, we reserve the right to disclose the processing code when relevant to the project. It will also be clarified if the used data was artificially produced.
 
 ## 2. Requirements
 
