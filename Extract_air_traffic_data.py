@@ -32,8 +32,15 @@ Limitations for OpenSky users:
     
 """
 
+""" Connect to the OpenSky REST API """
 
-API = OpenSkyApi()
+def connect(username=None, password=None):
+        API = OpenSkyApi(username=username, password=password)
+    return API
+
+
+API = connect()
+
 
 columns = ['Time', 'icao24', 'callsign', 'origin_country', 'last_contact', 'latitude','longitude', 'baro_altitude',
            'on_ground', 'velocity', 'true_track', 'vertical_rate', 'sensors', 'geo_altitude', 'squawk', 'spi', 
@@ -65,6 +72,8 @@ Aircraft categories ('category'):
     
 
 """
+
+""" Functions for time conversion """
 
 def join_numbers(list_: list) -> list:
     is_number = ''
