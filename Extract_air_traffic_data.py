@@ -130,12 +130,10 @@ def get_data(columns=columns, list_airplanes=None, lat=[-90, 90], lon=[-180, 180
                     else:
                         data[col].append(vector_state[col])
                         
-            t_checkpoint = time()
             sleep(t_res) if it != (max_vectors - 1) else None
             
         except Exception as e:
             print("Could'n retrieve any data for It {} ({})".format(it, e.args))
-            t_checkpoint = time()
             sleep(t_res) if it != (max_vectors - 1) else None
 
         except KeyboardInterrupt:
